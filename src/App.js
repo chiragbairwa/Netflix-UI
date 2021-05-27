@@ -1,23 +1,17 @@
-import logo from './img/ico1.png';
 import React from 'react';
 import classes from './App.module.css';
+import Navbar from './comp/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav className={classes.Topbar}>
-          <img src={logo} alt="Logo" />
-        </nav>
-      </header>
-
-      <div className={classes.MainContainer}>
-        <div className={classes.ProductivePreview}>
-          <img src='./img/ico1.png' alt="First Product" />
-        </div>
+      <div className={classes.div}>
+        <section className={classes.Navbar}>
+          <Navbar />
+        </section>
+        <section className={classes.Content}>.</section>
+        <section className={classes.Social}>.</section>
       </div>
-
-
     </div>
   );
 }

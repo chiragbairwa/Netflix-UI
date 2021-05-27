@@ -1,13 +1,23 @@
-.Topbar {
-  width: 100%;
-  background-color:lightslategrey;
-  padding: 24px 48px 12px;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
+.div{
+  display: flex;
 }
+/* Navbar Start */
+.Navbar {
+  width: 20%;
+  height: 100vh;
+}
+/* Navbar End */
 
-.Topbar > img{
-  width: 100px;
+/* Content Start */
+.Content {
+  width: 70%;
+  background:red;
 }
+/* Content End */
+
+/* Social Start */
+.Social {
+  width: 10%;
+  background:yellow;
+}
+/* Social End */

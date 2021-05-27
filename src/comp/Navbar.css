@@ -1,0 +1,9 @@
+.Navbar >h2 {
+    padding-left: 30px;
+    font-size: 28pt;
+    color: #314556;
+}
+.Navbar >h2::after{
+    content: ".";
+    color: red;
+}
