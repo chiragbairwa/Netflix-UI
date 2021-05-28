@@ -1,14 +1,41 @@
 header {
-    margin-top: 40px;
-    margin-left: 40px;
     display: flex;
-    background-color: grey;
-}
-.lf_arrow {
-    display: flex;
+    color: #AFBFCD;
+    margin: 30px 40px;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.l_arrow {
+    color: #919da8;
+}
 .search_bar {
-    border-radius: 10px;
-    border: 2px solid red;
+    display: flex;
+    padding: 8px 15px;
+    margin-left: -135px;
+    border-radius: 20px;
+    align-items: center;
+    border: 2px solid #AFBFCD;
+}
+.search_bar > input {
+    margin: 0 18px; 
+    padding: 5px 0;  
+    border:none;
+}
+/* .profile{
+} */
+
+i > svg{
+    height: 23px;
+    width: 23px;
+}
+
+/* Preview card */
+.preview_card{
+    height: 370px;
+    margin: 40px 40px 0 40px;
+    border-radius: 30px;
+    background-size:cover;
+    background-position-y: -60px;
+    background-image: url(../img/witcher.jpg);
 }
