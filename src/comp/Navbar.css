@@ -1,9 +1,35 @@
 .Navbar >h2 {
-    padding-left: 30px;
     font-size: 28pt;
+    margin-left: 10%;
     color: #314556;
 }
 .Navbar >h2::after{
     content: ".";
     color: red;
+}
+.Navbar > p {
+    margin-left: 10%;
+}
+li{
+    list-style: none;
+    padding: 5px 0 5px 60px;
+    margin-bottom: 20px;
+}
+li:active {
+    border-left: 5px groove red;
+}
+.Navcard {
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin: 20% 0 0 6%;
+    border-radius: 20px;
+    background-color:#D1D5DA;
+}
+.Navcard_Btn {
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 10px;
+    color: white;
+    background-color:#829BB0;
 }

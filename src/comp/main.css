@@ -1,0 +1,14 @@
+header {
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    background-color: grey;
+}
+.lf_arrow {
+    display: flex;
+}
+
+.search_bar {
+    border-radius: 10px;
+    border: 2px solid red;
+}

@@ -1,23 +1,23 @@
-.div{
+.container{
   display: flex;
 }
 /* Navbar Start */
 .Navbar {
-  width: 20%;
-  height: 100vh;
+  width: 17.5%;
+  border-right: 1px groove #F9FAFF;
 }
 /* Navbar End */
 
 /* Content Start */
 .Content {
-  width: 70%;
-  background:red;
+  width: 75.5%;
+  background:#F9FAFF;
 }
 /* Content End */
 
 /* Social Start */
 .Social {
-  width: 10%;
+  width: 7%;
   background:yellow;
 }
 /* Social End */

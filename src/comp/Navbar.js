@@ -1,31 +1,35 @@
-import classes from "./Navbar.css";
+import "./Navbar.css";
 
-export default function Navbar() {
+export default function Navbar(){
   return (
     <div className="Navbar">
       <h2>Netflix</h2>
       
-      <ul>Menu
+      <p>Menu</p>
+      <div className="container">
         <li>Browse</li>
         <li>Watchlist</li>
         <li>Coming Soon</li>
-      </ul>
+      </div>
       
-      <ul>Social
+      <p>Social</p>
+      <div className="container">
         <li>Friends</li>
         <li>Parties</li>
-      </ul>
+      </div>
 
-      <ul>General
-        <li>Browse</li>
-        <li>Watchlist</li>
-        <li>Coming Soon</li>
-      </ul>
+      <p>General</p>
+      <div className="container">
+        <li>Settings</li>
+        <li>Log out</li>
+      </div>
       
-      <div className={classes.NavCard}>
+      <div className="Navcard">
         <p>Popcorn Addict</p>
         <p>4/6h viewing time</p>
-        <button>View challenges</button>
+        <div className="Navcard_Btn">
+          View challenges
+        </div>
       </div>
     </div>
   );
