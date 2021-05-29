@@ -1,9 +1,9 @@
-.Navbar >h2 {
+.Navbar >h3 {
     font-size: 28pt;
     margin-left: 10%;
     color: #314556;
 }
-.Navbar >h2::after{
+.Navbar >h3::after{
     content: ".";
     color: red;
 }

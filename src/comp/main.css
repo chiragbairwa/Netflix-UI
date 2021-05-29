@@ -1,11 +1,13 @@
+.main {
+    padding:30px 40px 0 40px;
+}
+/* HEADER */
 header {
     display: flex;
     color: #AFBFCD;
-    margin: 30px 40px;
     align-items: center;
     justify-content: space-between;
 }
-
 .l_arrow {
     color: #919da8;
 }
@@ -22,9 +24,6 @@ header {
     padding: 5px 0;  
     border:none;
 }
-/* .profile{
-} */
-
 i > svg{
     height: 23px;
     width: 23px;
@@ -32,10 +31,72 @@ i > svg{
 
 /* Preview card */
 .preview_card{
+    color: white;
     height: 370px;
-    margin: 40px 40px 0 40px;
     border-radius: 30px;
     background-size:cover;
+    margin: 40px 0 40px 0;
     background-position-y: -60px;
     background-image: url(../img/witcher.jpg);
 }
+.pre_card_header {
+    display: flex;
+    font-size: small;
+    align-items: center;
+    padding: 40px 0 0 40px;
+}
+.pre_card_xp{
+    padding: 4px 8px;
+    border-radius: 20px;
+    background-color: #586263;
+}
+.pre_card_watch {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.pre_card_watch > i{
+    padding-left: 1px;
+}
+/* Series Info */
+.pre_card_info {
+    margin: 80px 0 0 50px;
+}
+.title_name {
+    font-size: 40px;
+    font-weight: 650;
+    margin-bottom: 0;
+}
+.title_info {
+    margin-bottom: 30px;
+}
+.pre_card_info > div{
+    display: flex;
+}
+.btn1{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #D81F26;
+}
+.btn2{
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: #9DA3A6;
+}
+
+.series_tab {
+    margin-left: 320px;
+    margin-top: -60px;
+}
+.series_tabs {
+    width: 80px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-size:cover;
+}
+.series_tabs:first-child{
+    border: 2px solid white;
+}
+

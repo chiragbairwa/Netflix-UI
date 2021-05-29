@@ -1,8 +1,8 @@
 import './main.css';
-
+import witcher from "../img/witcher.jpg";
 export default function main() {
    return (
-      <div>
+      <div className="main">
          <header>
 
             {/* left-right arrow */}
@@ -65,11 +65,50 @@ export default function main() {
          </header>
          {/* Preview Card */}
          <div className="preview_card">
-            
+            <div className="pre_card_header">
+               <div className="pre_card_xp">10XP / episode</div>
+               <div className="pre_card_watch">
+                  <i className="icon">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                     </svg>
+                  </i>
+                  <i className="icon">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                     </svg>
+                  </i>
+                  <i className="icon">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                     </svg>
+                  </i>
+                  <p>+5 friends are watching</p>
+               </div>
+            </div>
+            <div className="pre_card_info">
+                  <p className="title_name">The Witcher</p>
+                  <p className="title_info">98% Match 2 seasons</p>
+               
+               <div className="btns">
+                  <div className="btn1">Watch</div>
+                  <div className="btn2">+</div>
+               </div>
+               <div className="series_tab">
+                  <img src={witcher} className="series_tabs" alt="Series"></img>
+                  <img src={witcher} className="series_tabs" alt="Series"></img>
+                  <img src={witcher} className="series_tabs" alt="Series"></img>
+               </div>
+            </div>
          </div>
 
          {/* Parties */}
-         <div></div>
+         <div>
+
+         </div>
 
          {/* Continue watching */}
          <div></div>

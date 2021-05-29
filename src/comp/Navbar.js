@@ -3,7 +3,7 @@ import "./Navbar.css";
 export default function Navbar(){
   return (
     <div className="Navbar">
-      <h2>Netflix</h2>
+      <h3>Netflix</h3>
       
       <p>Menu</p>
       <div className="container">
