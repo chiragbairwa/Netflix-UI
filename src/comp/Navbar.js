@@ -25,6 +25,7 @@ export default function Navbar(){
       </div>
       
       <div className="Navcard">
+        <div className="Navcard_icon"></div>
         <p>Popcorn Addict</p>
         <p>4/6h viewing time</p>
         <div className="Navcard_Btn">

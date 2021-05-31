@@ -6,7 +6,6 @@ header {
     display: flex;
     color: #AFBFCD;
     align-items: center;
-    justify-content: space-between;
 }
 .l_arrow {
     color: #919da8;
@@ -14,15 +13,15 @@ header {
 .search_bar {
     display: flex;
     padding: 8px 15px;
-    margin-left: -135px;
+    margin-left: 15px;
     border-radius: 20px;
     align-items: center;
     border: 2px solid #AFBFCD;
 }
 .search_bar > input {
-    margin: 0 18px; 
+    margin: 0 15px; 
     padding: 5px 0;  
-    border:none;
+    /* border:none; */
 }
 i > svg{
     height: 23px;
@@ -101,26 +100,21 @@ i > svg{
 }
 
 
-/* Parties */
+/* Parties Start*/
+.parties_corousals {
+    display:inline-flex;
+    overflow: hidden;
+}
 
-.parties_crousals {
-    display: flex;
-}
-.parties_crousal {
-    width: 150px;
-    margin-right: 20px;
-    border-radius: 20px;
-    padding: 10px 10px 0 10px;
-    background-color: #fff;
-}
-.parties_crousal_img {
+.parties_corousal_img {
     height: 50px;
     width: 50px;
     border-radius: 10px;
     background-color: black;
 }
+/* Parties End */
 
 /* Continue Watching */
-.watching_corousal {
-    display: flex;
+.watch_corousals {
+    display: inline-flex;
 }

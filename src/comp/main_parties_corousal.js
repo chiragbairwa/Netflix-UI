@@ -1,7 +1,14 @@
 export default function cards(props) {
+    const cardCss = {
+        width: '150px',
+        marginRight: '20px',
+        borderRadius: '20px',
+        backgroundColor: '#fff',
+        padding: '10px 10px 0 10px',
+    }
     return (
-        <div className="parties_crousal">
-            <div className="parties_crousal_img"></div>
+        <div style={cardCss}>
+            <div className="parties_corousal_img"></div>
             <div style={{ margin: "-3rem 0 0 5rem", }}>
                 <i className="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -26,7 +33,7 @@ export default function cards(props) {
                 fontSize: "12pt",
                 marginBottom: "-10px"
             }}>{props.title}</h6>
-            <p>{props.subtitle}</p>
+            <p>{props.genre}</p>
         </div>
     )
 
